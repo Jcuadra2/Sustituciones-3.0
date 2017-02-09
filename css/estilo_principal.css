@@ -1,0 +1,160 @@
+body{
+    /*background:#ecebe9;*/
+    font-size:14px;
+    margin: 0;
+    background: url("../images/fondo.jpg") no-repeat center center fixed;
+}
+#cabecera{
+    float: left;
+    width: 100%;
+}
+#login{
+    float:right;
+    text-align: right;
+    margin-right: 2%;
+    font-family: 'Jockey One', sans-serif;
+    font-size: 16px;
+    color: black;
+}
+#login > p{
+    color:black;
+}
+#titulo > h1{
+    color:#028a76;
+    font-size: 40px;
+    text-align: center;
+    font-family: 'Covered By Your Grace', cursive;
+}
+#imagen > img{
+    float: left;
+    width: 10%;
+}
+#menu{
+    float: left;
+    margin-left: 20px;
+    padding-right: 2%;
+    background: #ececec;
+    font-size: 18px;
+    font-family: 'Jockey One', sans-serif;
+    box-shadow: 3px 3px 10px 5px rgba(0,0,0,.8);
+    /*Las 3 líneas siguientes, sirven para el borde redondeado
+     * pero para diferentes navegadores*/
+    -webkit-border-radius:5px;
+    -moz-border-radius:10px;
+    border-radius:10px;
+}
+#menu > ul > li {
+    padding-bottom: 15%;
+    list-style: circle;
+}
+#contenido{
+    float: left;
+    text-align: center;
+    margin-left: 10%;
+    margin-top: 3%;
+    padding-left: 11%;
+    font-family: 'Jockey One', sans-serif;
+}
+#contenido > form{
+    font-size: 18px;
+}
+#contenido_formu{
+    float: left;
+    text-align: center;
+    margin-top: 3%;
+    margin-left: 8%;
+    font-family: 'Jockey One', sans-serif;
+}
+#contenido_importar{
+    float: left;
+    text-align: center;
+    margin-top: 2%;
+    margin-left: 40%;
+    font-family: 'Jockey One', sans-serif;
+}
+#contenido_calnd{
+    float: left;
+    text-align: center;
+    margin-left: 3%;
+    margin-top: 3%;
+    padding-left: 11%;
+    font-family: 'Jockey One', sans-serif;
+}
+.botton{
+    background: #d82c16;
+    background: -moz-linear-gradient(top,#eee,#ccc);
+    background: -moz-linear-gradient(top,#fc6,#f63);
+    background: -webkit-linear-gradient(top,#fc6,#f63);
+    background: linear-gradient(top,#fc6,#f63);
+    color: black;
+    margin-left: 150px;
+    width: 250px;
+    font-family: 'Jockey One', sans-serif;
+    font-size: 20px;
+}
+#btn_atras{
+    float: left;
+    margin-left: 1%;
+    margin-top: 7%;
+    clear:both;
+}
+#btn_atras > a > img{
+    width: 75%;
+}
+#btn_cs{
+    background: #d82c16;
+    background: -moz-linear-gradient(top,#eee,#ccc);
+    background: -moz-linear-gradient(top,#fc6,#f63);
+    background: -webkit-linear-gradient(top,#fc6,#f63);
+    background: linear-gradient(top,#fc6,#f63);
+    border-radius:5px; /*probar con 10px se hacen ovalados los inputs*/
+    box-shadow: 2px 2px 3px 1px rgba(0,0,0,.8);
+    color: black;
+    width: 100px;
+    font-family: 'Jockey One', sans-serif;
+    font-size: 16px;
+}
+input{
+    /*border: 1px solid #999; No usar esta línea y dejar box-shadow hace efecto de profundidad*/
+    border-radius:5px; /*probar con 10px se hacen ovalados los inputs*/
+    box-shadow: 2px 2px 3px 1px rgba(0,0,0,.8);
+    height: 27px;
+    font-family: 'Jockey One', sans-serif;
+    line-height: 20px;
+    padding:0 2px;
+    width: 150px;
+    background:#ffc;
+    padding-left: 25px;
+}
+#n_g{
+    width: 20px;
+}
+select{
+     /*border: 1px solid #999; No usar esta línea y dejar box-shadow hace efecto de profundidad*/
+    border-radius:5px; /*probar con 10px se hacen ovalados los inputs*/
+    box-shadow: 2px 2px 3px 1px rgba(0,0,0,.8);
+    height: 27px;
+    font-family: 'Jockey One', sans-serif;
+    line-height: 20px;
+    padding:0 2px;
+    width: 150px;
+    background:#ffc;
+    padding-left: 25px;
+}
+#select_prof{
+    margin-left: 10px;
+    margin-right: 20px;
+    width: 250px;
+}
+#btn_calnd{
+    background: #d82c16;
+    background: -moz-linear-gradient(top,#eee,#ccc);
+    background: -moz-linear-gradient(top,#fc6,#f63);
+    background: -webkit-linear-gradient(top,#fc6,#f63);
+    background: linear-gradient(top,#fc6,#f63);
+    margin-top: 60px;
+    font-family: 'Jockey One', sans-serif;
+    font-size: 20px;
+    width: 450px;
+}
+

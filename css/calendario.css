@@ -1,0 +1,21 @@
+#calendario{
+    background: #ececec;
+    font-size: 16px;
+    font-family: 'Jockey One', sans-serif;
+    box-shadow: 3px 3px 10px 5px rgba(0,0,0,.8);
+    -webkit-border-radius:5px;
+    -moz-border-radius:10px;
+    border-radius:10px;
+}
+#mes > td{
+    font-size: 25px;
+    color:#028a76;
+    padding-bottom: 20px;
+}
+#hora > a{
+    color:blue;
+    margin-left: 10px;
+    margin-right: 20px;
+    font-size: 18px;
+    font-style: bold;
+}
